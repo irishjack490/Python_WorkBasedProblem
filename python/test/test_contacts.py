@@ -100,6 +100,5 @@ class ContactsTest(unittest.TestCase):
     self.assertEqual(len(self.addressbook), expected_length)
     self.assertEqual(mocked_print.call_args_list[0][0][0], '\nContact Not found!\n')
 
-
 if __name__ == '__main__':
   unittest.main()

@@ -1,5 +1,4 @@
 let mockConsoleLog;
-let addressbook;
 
 // The prompt-sync module exports a default function so some pains have to be taken here to mock it properly
 // See: https://stackoverflow.com/a/68906447
@@ -12,6 +11,8 @@ jest.mock('prompt-sync', () => {
 
 // Load the contacts module after prompt-sync is mocked so that it can use the mocked prompt-sync
 const contacts = require('../contacts');
+
+let addressbook;
 
 describe('Contacts', () => {
 

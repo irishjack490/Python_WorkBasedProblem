@@ -13,7 +13,8 @@ def menu():
   print('[4] Exit')
 
 def main():
-  while(True):
+  run = True
+  while(run):
     menu()
     selection = int(input('Enter a selection: '))
 
@@ -21,9 +22,9 @@ def main():
       case 1: contacts.show_contacts(addressbook)
       case 2: contacts.add_contact(addressbook)
       case 3: contacts.delete_contact(addressbook)
-      case 4:
-        exit()
-      case _:
-        print('\nThat selection is not valid, please try again!\n')
+      case 4: run = False
+      case _: print('\nThat selection is not valid, please try again!\n')
+  
+  print('\nGoodbye!\n')
 
 main()

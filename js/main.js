@@ -18,7 +18,8 @@ function menu() {
 }
 
 function main() {
-  while(true) {
+  let run = true;
+  while(run) {
     menu();
     const selection = Number(prompt('Enter a selection: '));
 
@@ -26,13 +27,12 @@ function main() {
       case 1: contacts.showContacts(addressbook);  break;
       case 2: contacts.addContact(addressbook);    break;
       case 3: contacts.deleteContact(addressbook); break;
-      case 4:
-        process.exit();
-        break;
-      default:
-        console.log('\nThat selection is not valid, please try again!\n');
+      case 4: run = false; break;
+      default: console.log('\nThat selection is not valid, please try again!\n');
     }
   }
+
+  console.log('\nGoodbye!\n');
 }
 
 main();
