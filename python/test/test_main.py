@@ -1,8 +1,6 @@
 import unittest
 from unittest.mock import patch
 
-import importlib
-
 # https://stackoverflow.com/a/34738440
 import io
 import sys
@@ -15,6 +13,7 @@ import contacts
 # As the code is main.py not in a function or a class, nor is it a proper
 # module, some real pains have to be taken in order to run the code. 
 # The importlib library is used here to dynamically load/reload and run the main.py file
+import importlib
 def load_main():
   if 'main' in sys.modules:
     # The sys.modules.get() is necessary to avoid an
