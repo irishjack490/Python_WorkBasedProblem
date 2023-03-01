@@ -10,7 +10,7 @@ jest.mock('prompt-sync', () => {
 });
 
 // Load the contacts module after prompt-sync is mocked so that it can use the mocked prompt-sync
-const contacts = require('../contacts');
+const contacts = require('../src/contacts');
 
 let addressbook;
 

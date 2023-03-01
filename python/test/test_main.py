@@ -5,8 +5,8 @@ from unittest.mock import patch
 import io
 import sys
 
-sys.path.append('.')  # So that `python test/test_main.py` works
-sys.path.append('..') # So that `python test_main.py` works when in the 'test' directory
+sys.path.append('src')  # So that `python test/test_main.py` works
+sys.path.append('../src') # So that `python test_main.py` works when in the 'test' directory
 
 import contacts
 

@@ -10,8 +10,8 @@ jest.mock('prompt-sync', () => {
 });
 
 // Mock the entire contacts module
-jest.mock('../contacts');
-const contacts = require('../contacts');
+jest.mock('../src/contacts');
+const contacts = require('../src/contacts');
 
 const expectedAddressbook = expect.arrayContaining([
   expect.objectContaining({
@@ -36,7 +36,7 @@ describe('The main program', () => {
       .mockReturnValueOnce(1)
       .mockReturnValueOnce(4);
 
-    jest.isolateModules ( () => require('../main') );
+    jest.isolateModules ( () => require('../src/main') );
     expect(contacts.showContacts).toHaveBeenCalledTimes(1);
     expect(contacts.showContacts).toHaveBeenCalledWith(expectedAddressbook);
   });
@@ -46,7 +46,7 @@ describe('The main program', () => {
       .mockReturnValueOnce(2)
       .mockReturnValueOnce(4);
 
-    jest.isolateModules ( () => require('../main') );
+    jest.isolateModules ( () => require('../src/main') );
     expect(contacts.addContact).toHaveBeenCalledTimes(1);
     expect(contacts.addContact).toHaveBeenCalledWith(expectedAddressbook);
   });
@@ -56,7 +56,7 @@ describe('The main program', () => {
       .mockReturnValueOnce(3)
       .mockReturnValueOnce(4);
 
-    jest.isolateModules ( () => require('../main') );
+    jest.isolateModules ( () => require('../src/main') );
     expect(contacts.deleteContact).toHaveBeenCalledTimes(1);
     expect(contacts.deleteContact).toHaveBeenCalledWith(expectedAddressbook);
   });
@@ -65,7 +65,7 @@ describe('The main program', () => {
     mockPrompt = jest.fn()
       .mockReturnValueOnce(4);
 
-    jest.isolateModules ( () => require('../main') );
+    jest.isolateModules ( () => require('../src/main') );
 
     const expectedOutput = [
       '[1] Display all contacts',
@@ -85,7 +85,7 @@ describe('The main program', () => {
       .mockReturnValueOnce(5)
       .mockReturnValueOnce(4);
 
-    jest.isolateModules ( () => require('../main') );
+    jest.isolateModules ( () => require('../src/main') );
 
     const expectedOutput = [
       '[1] Display all contacts',
