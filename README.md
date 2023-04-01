@@ -43,21 +43,7 @@ Good luck! -->
 - In your terminal, navigate into the `js` directory -- this directory contains the working Javascript program
   - Run the command `npm install` -- this will install the modules necessary for the automated tests to run
 - Run the automated tests with `npm test`. You should see:
-  ```
-  % npm test
-
-  > python-containers-wbp@0.0.0 test
-  > jest
-
-   PASS  test/contacts.test.js
-   PASS  test/main.test.js
-
-  Test Suites: 2 passed, 2 total
-  Tests:       10 passed, 10 total
-  Snapshots:   0 total
-  Time:        0.18 s, estimated 1 s
-  Ran all test suites.
-  ```
+  ![step 1 unit test screenshot](/assets/step-1-screenshot.png)
 - Open up `js/src/main.js` and `js/src/contacts.js`. These files contain the working **Contacts** program in Javascript
   <!-- - You'll recall that you worked on this before! The new addition here is the implementation of the `deleteContact()` function, which previously was not yet implemented -->
   - Read it over and understand it -- it should be simple for you at this stage of the game!
@@ -86,24 +72,14 @@ Good luck! -->
   - Navigate to the `python` directory in your terminal
   - Run `python test/test_main.py`
   - You should see:
-  ```
-  % python test/test_main.py
-  .....
-  ----------------------------------------------------------------------
-  Ran 5 tests in 0.003s
-
-  OK
-  ```
+  ![step 3 pytest screenshot](/assets/step-3-screenshot.png)
 
 <details>
 <summary>Hint 1 - User Input</summary>
 
 You do not need `prompt-sync` in Python, as Python already has prompting built in. So these lines do not need to be translated to Python
 
-```js
-const promptSync = require('prompt-sync');
-const prompt = promptSync({ sigint: true });
-```
+![hint 1 screenshot](/assets/hint-1-screenshot.png)
 
 How do you prompt a user in Python? That was covered in the **Control Flow in Python** lesson!
 </details>
@@ -129,24 +105,14 @@ In Python, the [`match` statement](https://docs.python.org/3.10/whatsnew/3.10.ht
   - Navigate to the `python` directory in your terminal
   - Run `python test/test_contacts.py`
   - You should see:
-  ```
-  % python test/test_contacts.py
-  .....
-  ----------------------------------------------------------------------
-  Ran 5 tests in 0.001s
-
-  OK
-  ```
+  ![step 4 unit test screenshot](/assets/step-4-screenshot.png)
 
 <details>
 <summary>Hint 1 - User Input</summary>
 
 You do not need `prompt-sync` in Python, as Python already has prompting built in. So these lines do not need to be translated to Python
 
-```js
-const promptSync = require('prompt-sync');
-const prompt = promptSync({ sigint: true });
-```
+![hint 1 user input](/assets/hint-1-screenshot.png)
 
 How do you prompt a user in Python? That was covered in the **Control Flow in Python** lesson!
 </details>
@@ -163,10 +129,4 @@ Whenever a user is prompted for information, you should always sanitize the inpu
   - Navigate to the `python` directory in your terminal
   - Run `python -m unittest`
   - You should see:
-  ```
-  % python -m unittest
-  ..........
-  ----------------------------------------------------------------------
-  Ran 10 tests in 0.003s
-
-  OK
+  ![the end unit test screenshot](/assets/the-end-screenshot.png)
