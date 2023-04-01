@@ -1,4 +1,4 @@
-# Python Containers - Work Based Problem
+# Python Containers - WBP
 
 ![scenario](/assets/banner-scenario.png)
 
