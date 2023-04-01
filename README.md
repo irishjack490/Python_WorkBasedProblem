@@ -1,20 +1,22 @@
 # Python Containers - Work Based Problem
 
-## The Scenario
+![scenario](/assets/banner-scenario.png)
 
 Y Language fever has gripped the city! Hot on the heels of Triangle announcing their decision to switch to Y Language, ***ROS - Retro Operating Systems*** has announced the same thing!
 
-Remember the **Contacts** program you helped write, what seems like a long, long time ago?
+<!-- Remember the **Contacts** program you helped write, what seems like a long, long time ago?
 
 Now you'll be rewriting the **Contacts** program into Y Language.
 
-Good luck!
+Good luck! -->
 
 (In this exercise, X = Javascript and Y = Python. So you'll be rewriting a program originally written in Javascript into Python!)
 
-## Requirements
+![requirements](/assets/banner-requirements.png)
 
-- Basic Python syntax including:
+- Write Python version of the Contacts program in main.py
+- Write Python version of the Contacts program in contacts.py 
+- Use basic Python syntax including:
   - List `[]` syntax
   - Dictionary `{}` syntax
   - Iterating through lists
@@ -24,7 +26,13 @@ Good luck!
   - String interpolation using `f`-strings
   - And everything else from the previous problem!
 
-## Steps to complete tickets
+![tickets](/assets/banner-tickets.png)
+
+[Trello Board](https://trello.com/b/gndzk6Iz/python-containers)
+
+![trello board](/assets/M4L1.3-python-containers-trello-board.png)
+
+![coding practice](/assets/banner-coding.png)
 
 #### Step 1:
 
@@ -51,7 +59,7 @@ Good luck!
   Ran all test suites.
   ```
 - Open up `js/src/main.js` and `js/src/contacts.js`. These files contain the working **Contacts** program in Javascript
-  - You'll recall that you worked on this before! The new addition here is the implementation of the `deleteContact()` function, which previously was not yet implemented
+  <!-- - You'll recall that you worked on this before! The new addition here is the implementation of the `deleteContact()` function, which previously was not yet implemented -->
   - Read it over and understand it -- it should be simple for you at this stage of the game!
 - Run the program with `node src/main.js`. Play with it and understand its operation
 - You do not need to touch anything in the `js/test` directory; those are the automated tests
