@@ -100,20 +100,24 @@ OK
 <details>
 <summary>Hint 1 - User Input</summary>
 
-You do not need `prompt-sync` in Python, as Python already has prompting built in. So these lines do not need to be translated to Python
+You do not need <code>prompt-sync</code> in Python, as Python already has prompting built in. So these lines do not need to be translated to Python
 
- ```js
+ <!-- <pre><code>
  const promptSync = require('prompt-sync');
  const prompt = promptSync({ sigint: true });
- ```
+</code></pre> -->
+<!-- HTML generated using hilite.me -->
+<pre style="background: #111111; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin: 0; line-height: 125%"><span style="color: #fb660a; font-weight: bold">const</span> <span style="color: #ffffff">promptSync</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">require(</span><span style="color: #0086d2">&#39;prompt-sync&#39;</span><span style="color: #ffffff">);</span>
+<span style="color: #fb660a; font-weight: bold">const</span> <span style="color: #ffffff">prompt</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">promptSync({</span> <span style="color: #ffffff">sigint:</span> <span style="color: #fb660a; font-weight: bold">true</span> <span style="color: #ffffff">});</span>
+</pre>
 
  How do you prompt a user in Python? That was covered in the **Control Flow in Python** lesson!
 </details>
 
 <details>
-<summary>Hint 2 - `switch` statement in Javascript</summary>
+<summary>Hint 2 - <code>switch</code> statement in Javascript</summary>
 
-In Python, the [`match` statement](https://docs.python.org/3.10/whatsnew/3.10.html#pep-634-structural-pattern-matching) is the equivalent of the `switch` statement in Javascript
+In Python, the [<code>match</code> statement](https://docs.python.org/3.10/whatsnew/3.10.html#pep-634-structural-pattern-matching) is the equivalent of the <code>switch</code> statement in Javascript
 </details>
 
 #### Step 4:
@@ -144,12 +148,16 @@ OK
 <details>
 <summary>Hint 1 - User Input</summary>
 
-You do not need `prompt-sync` in Python, as Python already has prompting built in. So these lines do not need to be translated to Python
+You do not need <code>prompt-sync</code> in Python, as Python already has prompting built in. So these lines do not need to be translated to Python
 
- ```js
+ <!-- <pre><code>
  const promptSync = require('prompt-sync');
  const prompt = promptSync({ sigint: true });
- ```
+</code></pre> -->
+<!-- HTML generated using hilite.me -->
+<pre style="background: #111111; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin: 0; line-height: 125%"><span style="color: #fb660a; font-weight: bold">const</span> <span style="color: #ffffff">promptSync</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">require(</span><span style="color: #0086d2">&#39;prompt-sync&#39;</span><span style="color: #ffffff">);</span>
+<span style="color: #fb660a; font-weight: bold">const</span> <span style="color: #ffffff">prompt</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">promptSync({</span> <span style="color: #ffffff">sigint:</span> <span style="color: #fb660a; font-weight: bold">true</span> <span style="color: #ffffff">});</span>
+</pre>
 
 How do you prompt a user in Python? That was covered in the **Control Flow in Python** lesson!
 </details>
@@ -157,7 +165,7 @@ How do you prompt a user in Python? That was covered in the **Control Flow in Py
 <details>
 <summary>Hint 2 - Cleaning up User Input</summary>
 
-Whenever a user is prompted for information, you should always sanitize the input by removing extra spaces before and after. This is accomplished in Javascript using the `.trim()` method, and in Python the equivalent is the `.strip()` method.
+Whenever a user is prompted for information, you should always sanitize the input by removing extra spaces before and after. This is accomplished in Javascript using the <code>.trim()</code> method, and in Python the equivalent is the <code>.strip()</code> method.
 </details>
 
 ## The End
