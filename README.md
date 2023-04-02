@@ -111,7 +111,7 @@ You do not need <code>prompt-sync</code> in Python, as Python already has prompt
 <span style="color: #fb660a; font-weight: bold">const</span> <span style="color: #ffffff">prompt</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">promptSync({</span> <span style="color: #ffffff">sigint:</span> <span style="color: #fb660a; font-weight: bold">true</span> <span style="color: #ffffff">});</span>
 </pre>
 
- How do you prompt a user in Python? That was covered in the **Control Flow in Python** lesson!
+ How do you prompt a user in Python? That was covered in the <strong>Control Flow in Python</strong> lesson!
 </details>
 
 <details>
