@@ -87,26 +87,26 @@ Good luck! -->
   - Navigate to the `python` directory in your terminal
   - Run `python test/test_main.py`
   - You should see:
-  ```
-  % python test/test_main.py
-  .....
-  ----------------------------------------------------------------------
-  Ran 5 tests in 0.003s
+   ```
+   % python test/test_main.py
+   .....
+   ----------------------------------------------------------------------
+   Ran 5 tests in 0.003s
 
-  OK
-  ```
+   OK
+   ```
 
 <details>
 <summary>Hint 1 - User Input</summary>
 
 You do not need `prompt-sync` in Python, as Python already has prompting built in. So these lines do not need to be translated to Python
 
-```js
-const promptSync = require('prompt-sync');
-const prompt = promptSync({ sigint: true });
-```
+ ```js
+ const promptSync = require('prompt-sync');
+ const prompt = promptSync({ sigint: true });
+ ```
 
-How do you prompt a user in Python? That was covered in the **Control Flow in Python** lesson!
+ How do you prompt a user in Python? That was covered in the **Control Flow in Python** lesson!
 </details>
 
 <details>
@@ -130,24 +130,24 @@ In Python, the [`match` statement](https://docs.python.org/3.10/whatsnew/3.10.ht
   - Navigate to the `python` directory in your terminal
   - Run `python test/test_contacts.py`
   - You should see:
-  ```
-  % python test/test_contacts.py
-  .....
-  ----------------------------------------------------------------------
-  Ran 5 tests in 0.001s
+   ```
+   % python test/test_contacts.py
+   .....
+   ----------------------------------------------------------------------
+   Ran 5 tests in 0.001s
 
-  OK
-  ```
+   OK
+   ```
 
 <details>
 <summary>Hint 1 - User Input</summary>
 
 You do not need `prompt-sync` in Python, as Python already has prompting built in. So these lines do not need to be translated to Python
 
-```js
-const promptSync = require('prompt-sync');
-const prompt = promptSync({ sigint: true });
-```
+ ```js
+ const promptSync = require('prompt-sync');
+ const prompt = promptSync({ sigint: true });
+ ```
 
 How do you prompt a user in Python? That was covered in the **Control Flow in Python** lesson!
 </details>
@@ -164,11 +164,12 @@ Whenever a user is prompted for information, you should always sanitize the inpu
   - Navigate to the `python` directory in your terminal
   - Run `python -m unittest`
   - You should see:
-  ```
-  % python -m unittest
-  ..........
-  ----------------------------------------------------------------------
-  Ran 10 tests in 0.003s
+   ```
+   % python -m unittest
+   ..........
+   ----------------------------------------------------------------------
+   Ran 10 tests in 0.003s
 
-  OK
+   OK
+   ```
 <!-- {% endraw %} -->
