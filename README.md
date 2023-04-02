@@ -117,7 +117,7 @@ You do not need <code>prompt-sync</code> in Python, as Python already has prompt
 <details>
 <summary>Hint 2 - <code>switch</code> statement in Javascript</summary>
 
-In Python, the [<code>match</code> statement](https://docs.python.org/3.10/whatsnew/3.10.html#pep-634-structural-pattern-matching) is the equivalent of the <code>switch</code> statement in Javascript
+In Python, the <a href="https://docs.python.org/3.10/whatsnew/3.10.html#pep-634-structural-pattern-matching"><code>match</code> statement</a>  is the equivalent of the <code>switch</code> statement in Javascript
 </details>
 
 #### Step 4:
@@ -158,9 +158,11 @@ You do not need <code>prompt-sync</code> in Python, as Python already has prompt
 <pre style="background: #111111; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; margin: 0; line-height: 125%"><span style="color: #fb660a; font-weight: bold">const</span> <span style="color: #ffffff">promptSync</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">require(</span><span style="color: #0086d2">&#39;prompt-sync&#39;</span><span style="color: #ffffff">);</span>
 <span style="color: #fb660a; font-weight: bold">const</span> <span style="color: #ffffff">prompt</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">promptSync({</span> <span style="color: #ffffff">sigint:</span> <span style="color: #fb660a; font-weight: bold">true</span> <span style="color: #ffffff">});</span>
 </pre>
-
-How do you prompt a user in Python? That was covered in the **Control Flow in Python** lesson!
+<br>
+How do you prompt a user in Python? That was covered in the <strong>Control Flow in Python</strong> lesson!
+<br>
 </details>
+
 
 <details>
 <summary>Hint 2 - Cleaning up User Input</summary>
