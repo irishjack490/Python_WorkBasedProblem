@@ -5,8 +5,9 @@ from unittest.mock import patch
 import io
 import sys
 
-sys.path.append('src')  # So that `python test/test_contacts.py` works
-sys.path.append('../src') # So that `python test_contacts.py` works when in the 'test' directory
+# So that `python test/test_contacts.py` works
+# and `python test_contacts.py` works when in the 'test' directory
+sys.path += ['src', '../src']
 
 import contacts
 
