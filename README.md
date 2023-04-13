@@ -37,7 +37,7 @@ Good luck! -->
 
 #### Step 1:
 
-- Fork and clone this repository
+- Fork and clone [this](https://git.generalassemb.ly/SEI-Standard-Curriculum/M4L3-python-containers-wbp) repository
 - Navigate (`cd`) into the repository folder in your console
 - Open up the repository folder in your code editor
   - If you're using Visual Studio Code, the command is `code .`
