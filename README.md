@@ -29,7 +29,7 @@ Good luck! -->
 
 ![tickets](/assets/banner-tickets.png)
 
-[Trello Board](https://trello.com/b/gndzk6Iz/python-containers)
+<!-- [Trello Board](https://trello.com/b/gndzk6Iz/python-containers) -->
 
 ![trello board](/assets/M4L1.3-python-containers-trello-board.png)
 
