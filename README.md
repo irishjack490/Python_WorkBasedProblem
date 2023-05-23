@@ -1,7 +1,7 @@
 <!-- {% raw %} -->
 # Python Containers - Work Based Problem
 
-![scenario](/assets/banner-scenario.png)
+![scenario](./assets/banner-scenario.png)
 
 Y Language fever has gripped the city! Hot on the heels of Triangle announcing their decision to switch to Y Language, ***ROS - Retro Operating Systems*** has announced the same thing!
 
@@ -13,7 +13,7 @@ Good luck! -->
 
 (In this exercise, X = Javascript and Y = Python. So you'll be rewriting a program originally written in Javascript into Python!)
 
-![requirements](/assets/banner-requirements.png)
+![requirements](./assets/banner-requirements.png)
 
 - Write Python version of the Contacts program in main.py
 - Write Python version of the Contacts program in contacts.py 
@@ -27,13 +27,13 @@ Good luck! -->
   - String interpolation using `f`-strings
   - And everything else from the previous problem!
 
-![tickets](/assets/banner-tickets.png)
+![tickets](./assets/banner-tickets.png)
 
 <!-- [Trello Board](https://trello.com/b/gndzk6Iz/python-containers) -->
 
-![trello board](/assets/M4L1.3-python-containers-trello-board.png)
+![trello board](./assets/M4L1.3-python-containers-trello-board.png)
 
-![coding practice](/assets/banner-coding.png)
+![coding practice](./assets/banner-coding.png)
 
 #### Step 1:
 
