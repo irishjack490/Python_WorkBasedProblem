@@ -1,5 +1,5 @@
 def show_contacts(addressbook):
-  pass
+  print(addressbook)
 
 def add_contact(addressbook):
   pass
