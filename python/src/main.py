@@ -1,5 +1,6 @@
 import contacts
-from contacts import menu
+
+
 addressbook = [ 
   { 'name': 'Bruce Wayne', 'phone': '555-123-4567', 'email': 'bruce@wayne.com' },
   { 'name': 'Clark Kent', 'phone': '555-222-3333', 'email': 'clark@dailyplanet.com' },
@@ -30,6 +31,5 @@ def process_selection(selection, addressbook):
   else:
     print('That selection is not valid, please try again')
   return True 
-
 
 main()
