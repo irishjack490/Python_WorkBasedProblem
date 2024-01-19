@@ -1,5 +1,5 @@
 import contacts
-
+from contacts import menu
 addressbook = [ 
   { 'name': 'Bruce Wayne', 'phone': '555-123-4567', 'email': 'bruce@wayne.com' },
   { 'name': 'Clark Kent', 'phone': '555-222-3333', 'email': 'clark@dailyplanet.com' },
@@ -16,7 +16,7 @@ def main():
   run = True 
   while run:
     menu()
-    selection = int(input('Enter a selection'))
+    selection = int(input('Enter a selection '))
 
 def process_selection(selection, addressbook):
   if selection == 1:
